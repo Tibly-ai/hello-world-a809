@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello World — Simple, Beautiful One-Page Sites</title>
+<meta name="description" content="Hello World builds clean, minimalist single-page websites for small businesses — fast to launch, easy to love. Say hello to a better first impression.">
+<link rel="canonical" href="https://hello-world-a809.sites.tibly.ai/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hello-world-a809.sites.tibly.ai/">
+<meta property="og:site_name" content="Hello World">
+<meta property="og:title" content="Hello World — Simple, Beautiful One-Page Sites">
+<meta property="og:description" content="Hello World builds clean, minimalist single-page websites for small businesses — fast to launch, easy to love. Say hello to a better first impression.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style type="text/tailwindcss">
+@theme {
+  --color-brand-50: #eaf2fc;
+  --color-brand-100: #cfe1f7;
+  --color-brand-200: #a3c5ef;
+  --color-brand-300: #74a7e6;
+  --color-brand-400: #3f86dc;
+  --color-brand-500: #0066cc;
+  --color-brand-600: #0059b3;
+  --color-brand-700: #00478f;
+  --color-brand-800: #00366e;
+  --color-brand-900: #00244a;
+
+  --color-accent-50: #fff1f1;
+  --color-accent-100: #ffd9d9;
+  --color-accent-200: #ffb3b3;
+  --color-accent-300: #ff8f8f;
+  --color-accent-400: #ff7d7d;
+  --color-accent-500: #ff6b6b;
+  --color-accent-600: #e65a5a;
+  --color-accent-700: #cc4848;
+  --color-accent-800: #a83737;
+  --color-accent-900: #802828;
+
+  --color-surface: #f8f9fa;
+  --color-ink: #1a1a1a;
+
+  --font-display: "Poppins", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md bg-brand-500 px-6 py-3 font-display font-medium text-white shadow-sm transition-colors hover:bg-brand-600;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-md bg-accent-500 px-6 py-3 font-display font-medium text-white shadow-sm transition-colors hover:bg-accent-600;
+  }
+  .card {
+    @apply rounded-lg bg-surface p-6 shadow-sm;
+  }
+}
+</style>
+</head>
+<body>
+<!-- block:header -->
+<header id="top" class="sticky top-0 z-50 w-full bg-white/80 backdrop-blur border-b border-brand-100">
+  <div class="mx-auto flex max-w-3xl items-center justify-center px-4 py-4 sm:px-6">
+    <a href="#top" class="font-display text-lg font-semibold tracking-tight text-ink hover:text-brand-500">
+      Hello World
+    </a>
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:hero -->
+<section class="relative overflow-hidden bg-gradient-to-b from-white via-brand-50 to-white" data-block="hero">
+  <div class="mx-auto max-w-3xl px-4 py-24 text-center sm:px-6 sm:py-32">
+    <p class="mb-4 font-body text-sm font-medium uppercase tracking-widest text-brand-500">A one-page website studio</p>
+    <h1 class="font-display text-5xl font-bold tracking-tight text-ink sm:text-6xl">
+      Hello, World.
+    </h1>
+    <p class="mx-auto mt-6 max-w-xl font-body text-lg text-ink/70 sm:text-xl">
+      We design and build clean, minimalist single-page websites that say exactly who you are —
+      no clutter, no fuss, just a great first impression.
+    </p>
+    <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="#offer" class="btn">See what we build</a>
+      <a href="#cta" class="btn-secondary">Get started</a>
+    </div>
+  </div>
+  <div class="pointer-events-none absolute -top-24 left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-brand-100 opacity-40 blur-3xl"></div>
+</section>
+<!-- /block:hero -->
+<!-- block:offer -->
+<section id="offer" class="mx-auto max-w-3xl px-4 py-20 sm:px-6" data-block="offer">
+  <div class="text-center">
+    <h2 class="font-display text-3xl font-semibold text-ink sm:text-4xl">One page. Done right.</h2>
+    <p class="mx-auto mt-4 max-w-xl font-body text-ink/70">
+      We believe most businesses don't need a sprawling website — they need one page that loads fast,
+      looks sharp, and tells visitors exactly what to do next.
+    </p>
+  </div>
+
+  <div class="mt-14 grid gap-6 sm:grid-cols-3">
+    <div class="card text-center">
+      <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-500 text-white font-display text-xl">1</div>
+      <h3 class="font-display text-lg font-semibold text-ink">Clean Design</h3>
+      <p class="mt-2 font-body text-sm text-ink/70">Thoughtful typography, whitespace, and color — nothing that gets in the way of your message.</p>
+    </div>
+    <div class="card text-center">
+      <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-500 text-white font-display text-xl">2</div>
+      <h3 class="font-display text-lg font-semibold text-ink">Fast to Launch</h3>
+      <p class="mt-2 font-body text-sm text-ink/70">From first call to live site in days, not months. Simple sites don't need long timelines.</p>
+    </div>
+    <div class="card text-center">
+      <div class="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-md bg-brand-500 text-white font-display text-xl">3</div>
+      <h3 class="font-display text-lg font-semibold text-ink">Built to Convert</h3>
+      <p class="mt-2 font-body text-sm text-ink/70">Every section is designed around one clear goal — getting visitors to say hello back.</p>
+    </div>
+  </div>
+</section>
+<!-- /block:offer -->
+<!-- block:proof -->
+<section class="bg-surface" data-block="proof">
+  <div class="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6">
+    <h2 class="font-display text-3xl font-semibold text-ink sm:text-4xl">Trusted by people who like simple things</h2>
+    <div class="mt-12 grid gap-6 sm:grid-cols-2">
+      <blockquote class="card text-left">
+        <p class="font-body text-ink/80">"They took our messy idea and turned it into one gorgeous page. Launched the same week — customers actually comment on it."</p>
+        <footer class="mt-4 font-display text-sm font-semibold text-ink">Maya Chen <span class="font-body font-normal text-ink/50">— Studio Maple</span></footer>
+      </blockquote>
+      <blockquote class="card text-left">
+        <p class="font-body text-ink/80">"I didn't need ten pages, I needed one that worked. Hello World nailed it — clean, fast, and exactly on brand."</p>
+        <footer class="mt-4 font-display text-sm font-semibold text-ink">Derek Osei <span class="font-body font-normal text-ink/50">— Fieldstone Goods</span></footer>
+      </blockquote>
+    </div>
+    <div class="mt-12 flex flex-wrap items-center justify-center gap-x-10 gap-y-4 opacity-70">
+      <span class="font-display text-sm font-semibold tracking-wide text-ink/60">STUDIO MAPLE</span>
+      <span class="font-display text-sm font-semibold tracking-wide text-ink/60">FIELDSTONE GOODS</span>
+      <span class="font-display text-sm font-semibold tracking-wide text-ink/60">NORTHWIND CO.</span>
+      <span class="font-display text-sm font-semibold tracking-wide text-ink/60">LUME &amp; CO</span>
+    </div>
+  </div>
+</section>
+<!-- /block:proof -->
+<!-- block:cta -->
+<section id="cta" class="mx-auto max-w-3xl px-4 py-20 sm:px-6" data-block="cta">
+  <div class="rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 p-8 text-center shadow-sm sm:p-12">
+    <h2 class="font-display text-3xl font-bold text-white sm:text-4xl">Say hello. We'll take it from there.</h2>
+    <p class="mx-auto mt-4 max-w-xl font-body text-white/85">
+      Tell us a bit about your business and we'll reach out to talk through your one-page site —
+      no pressure, just a friendly conversation.
+    </p>
+
+    <form method="POST" action="https://api.tibly.ai/api/public/site-forms" class="mx-auto mt-8 max-w-md space-y-4 text-left">
+      <input type="hidden" name="_page" value="/index">
+      <input type="text" name="_gotcha" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <div>
+        <label for="name" class="mb-1 block font-body text-sm font-medium text-white">Name</label>
+        <input id="name" name="name" type="text" required
+          class="w-full rounded-md border-0 px-4 py-3 font-body text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-500"
+          placeholder="Jane Rivera">
+      </div>
+      <div>
+        <label for="email" class="mb-1 block font-body text-sm font-medium text-white">Email</label>
+        <input id="email" name="email" type="email" required
+          class="w-full rounded-md border-0 px-4 py-3 font-body text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-500"
+          placeholder="jane@yourbusiness.com">
+      </div>
+      <div>
+        <label for="message" class="mb-1 block font-body text-sm font-medium text-white">Tell us about your business</label>
+        <textarea id="message" name="message" rows="4"
+          class="w-full rounded-md border-0 px-4 py-3 font-body text-ink shadow-sm focus:outline-none focus:ring-2 focus:ring-accent-500"
+          placeholder="A little about what you do and what you're hoping for..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-secondary w-full sm:w-auto">Send it over</button>
+    </form>
+  </div>
+</section>
+<!-- /block:cta -->
+<!-- block:footer -->
+<footer class="w-full border-t border-brand-100 bg-surface">
+  <div class="mx-auto flex max-w-3xl flex-col items-center gap-3 px-4 py-8 text-center sm:px-6">
+    <p class="font-display text-base font-semibold text-ink">Hello World</p>
+    <p class="font-body text-sm text-ink/70">
+      Questions? Reach out at <a href="mailto:hello@example.com" class="text-brand-500 hover:underline">hello@example.com</a>
+      or call <a href="tel:+10000000000" class="text-brand-500 hover:underline">(000) 000-0000</a>.
+    </p>
+    <a href="#top" class="font-body text-sm text-brand-500 hover:underline">Back to top ↑</a>
+    <p class="font-body text-xs text-ink/50">&copy; 2024 Hello World. All rights reserved.</p>
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async src="https://api.tibly.ai/widget/v1.js"></script>
+</body>
+</html>
